@@ -5,6 +5,7 @@
 
         <div class="col-md-12" :class="{ 'tag-pt-3': index !== 0 }" v-for="(photo, index) in photos" :key="index">
           <div
+
             class="card bg-size-cover  bg-position-center border-0 overflow-hidden"
             :style="{ 'background-image': 'url(' + photo.src + ')' }"
           >
@@ -17,6 +18,7 @@
                 class="d-sm-flex justify-content-between align-items-end pt-5 mt-2 mt-sm-5"
               >
                 <a
+
                   class="text-decoration-none text-light pe-2"
                   href="real-estate-single-v1.html"
                 >
@@ -29,7 +31,8 @@
                 >
                 <div class="btn-group ms-n2 ms-sm-0 mt-3">
                   <a
-                    class="btn btn-primary px-3"
+                    class="btn btn-primary px-3
+                    py-1"
                     href="real-estate-single-v1.html"
                     style="height: 2.75rem"
                     > {{ photo.price }}</a

@@ -1,1 +1,0 @@
-import{_ as o,c as t,d as r,o as c,r as n}from"./index-XFxa4HIO.js";const s={};function a(_,l){const e=n("router-view");return c(),t("div",null,[r(e)])}const d=o(s,[["render",a]]);export{d as default};
